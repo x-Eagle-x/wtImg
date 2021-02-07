@@ -10,14 +10,14 @@ int main(int argCount, char** args)
 {
     if (args[1] == nullptr)
     {
-        std::cout << "No image was provided...";
+        std::cout << "No image was provided...\n";
         return EXIT_FAILURE;
     }
 
     sf::Texture tempTexture;
     if (!tempTexture.loadFromFile(args[1]))
     {
-        std::cout << "No existing image was provided or lacking administrator privileges...";
+        std::cout << "No existing image was provided or lacking administrator privileges...\n";
         return EXIT_FAILURE;
     }
         
