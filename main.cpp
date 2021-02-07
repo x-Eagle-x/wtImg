@@ -6,9 +6,9 @@
 #define STD_OUTPUT_HANDLE -11
 #define VT100_MODE 0x4
 
-int main(int argCount, char** args)
+int main(int argsCount, char** args)
 {
-    if (args[1] == nullptr)
+    if (argsCount < 1)
     {
         std::cout << "No image was provided...\n";
         return EXIT_FAILURE;
