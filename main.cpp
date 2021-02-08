@@ -6,7 +6,7 @@
 #define STD_OUTPUT_HANDLE -11
 #define VT100_MODE 0x4
 
-int main(int argsCount, char** args)
+int main(int argsCount, char **args)
 {
     if (argsCount == 1)
     {
