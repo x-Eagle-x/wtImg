@@ -8,7 +8,7 @@
 
 int main(int argsCount, char** args)
 {
-    if (argsCount < 1)
+    if (argsCount == 1)
     {
         std::cout << "No image was provided...\n";
         return EXIT_FAILURE;
